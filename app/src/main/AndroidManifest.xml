@@ -24,6 +24,9 @@
         <activity
             android:name=".test.StrokeTextActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".test.ProgressBarActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

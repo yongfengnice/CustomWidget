@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.customwidget.test.BottomDialogActivity;
+import com.customwidget.test.ProgressBarActivity;
 import com.customwidget.test.StrokeTextActivity;
 import com.customwidget.test.WordWrapActivity;
 
@@ -40,6 +41,7 @@ public class MainActivity extends Activity {
         mIntentList.add(new Intent(this, BottomDialogActivity.class));
         mIntentList.add(new Intent(this, WordWrapActivity.class));
         mIntentList.add(new Intent(this, StrokeTextActivity.class));
+        mIntentList.add(new Intent(this, ProgressBarActivity.class));
     }
 
     private void initAdapter() {
