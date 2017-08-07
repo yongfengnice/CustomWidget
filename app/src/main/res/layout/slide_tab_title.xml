@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    android:layout_width="wrap_content"
+    android:layout_weight="1"
+    宽度自适应，并且权重平分，可实现效果如下：
+        当所有tab超出屏幕宽度时，可左右滑动，而且文字长短自适应，文字不会换行
+        当所有tab未超出屏幕宽度时，各个tab均分屏幕的宽度
+-->
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_title"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_weight="1"
+    android:textColor="@color/slide_title_tc"
+    android:textSize="15sp"/>
