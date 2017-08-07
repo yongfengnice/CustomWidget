@@ -10,31 +10,32 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="50dp"
-    android:layout_weight="1"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp">
+    android:layout_weight="1">
 
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:gravity="center"
         android:text="测试"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:textColor="@color/slide_title_tc"
         android:textSize="15sp"/>
 
     <TextView
+        android:id="@+id/tv_red_dot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/tv_title"
-        android:layout_marginBottom="-8dp"
-        android:layout_marginLeft="-6dp"
-        android:layout_toRightOf="@id/tv_title"
+        android:layout_marginBottom="-20dp"
+        android:layout_alignRight="@id/tv_title"
         android:background="@drawable/red_dot_bg"
         android:paddingLeft="2dp"
         android:paddingRight="2dp"
         android:text="99+"
+        android:visibility="gone"
         android:textColor="#ffffff"
         android:textSize="10sp"/>
 </RelativeLayout>

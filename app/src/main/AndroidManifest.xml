@@ -30,6 +30,9 @@
         <activity
             android:name=".activity.SlideTabActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SlideTabWithTipActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

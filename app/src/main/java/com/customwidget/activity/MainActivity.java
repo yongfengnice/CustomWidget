@@ -42,6 +42,7 @@ public class MainActivity extends Activity {
         mIntentList.add(new IntentEntity("文字描边效果", new Intent(this, StrokeTextActivity.class)));
         mIntentList.add(new IntentEntity("文字居中圆角进度条", new Intent(this, ProgressBarActivity.class)));
         mIntentList.add(new IntentEntity("左右滑动选项卡", new Intent(this, SlideTabActivity.class)));
+        mIntentList.add(new IntentEntity("带数字提示的选项卡", new Intent(this, SlideTabWithTipActivity.class)));
     }
 
     private void initAdapter() {
