@@ -90,6 +90,7 @@ public class SlidingTabStrip extends LinearLayout {
         invalidate();
     }
 
+    //added by yongfengnice
     private int mIndicatorWidth = 0;
 
     public void setIndicatorWidth(int indicatorWidth) {

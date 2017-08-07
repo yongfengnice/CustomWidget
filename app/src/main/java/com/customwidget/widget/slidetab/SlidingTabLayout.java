@@ -97,10 +97,12 @@ public class SlidingTabLayout extends HorizontalScrollView {
         addView(mTabStrip, LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
     }
 
+    //added by yongfengnice
     public SlidingTabStrip getTabStrip() {
         return mTabStrip;
     }
 
+    //added by yongfengnice
     public void setIndicatorWidth(int indicatorWidth) {
         mTabStrip.setIndicatorWidth(indicatorWidth);
     }
