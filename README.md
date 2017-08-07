@@ -3,6 +3,8 @@
 
 部分效果图如下所示：
 
+![](http://i.imgur.com/EASv3x5.png)
+
 ![](http://i.imgur.com/G4qS4ED.png)
 
 ![](http://i.imgur.com/Sj9gLnS.png)
@@ -11,4 +13,4 @@
 
 ![](http://i.imgur.com/B2st9z1.png)
 
-![](http://i.imgur.com/8HYKBt2.png)
+![](http://i.imgur.com/xLslBAh.png)
